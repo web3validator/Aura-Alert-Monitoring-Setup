@@ -84,6 +84,9 @@ docker run -d --name tenderduty -p "8888:8888" -p "28686:28686" --restart unless
 ```shell
 docker logs -f --tail 20 tenderduty
 ```
+
+<img width="1024" alt="image" src="https://user-images.githubusercontent.com/59205554/187071932-62056ae3-1221-466d-af76-be7094d4ba19.png">
+
 ### А тепер ми можемо переглянути інформацію у браузері заходимо по адресі:
 
 http://твій-айпі:8888/
