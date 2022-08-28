@@ -72,7 +72,24 @@ RPC: https://rpc-t.aura.nodestake.top
 nano $HOME/tenderduty/config.yml
 ```
 <img width="857" alt="image" src="https://user-images.githubusercontent.com/59205554/187070874-8d5449bf-3ba5-4800-967f-4caeef4dc0dc.png">
-<img width="636" alt="image" src="https://user-images.githubusercontent.com/59205554/187070883-88a7800f-3ac5-4489-bc5f-8a875e98881d.png">
+<img width="639" alt="image" src="https://user-images.githubusercontent.com/59205554/187071477-b5c9afdb-b221-436c-9a2f-1ceb8c7a2306.png">
 
+Після налаштування конфігу запускаємо докер:
+```shell
+docker run -d --name tenderduty -p "8888:8888" -p "28686:28686" --restart unless-stopped -v $(pwd)/config.yml:/var/lib/tenderduty/config.yml ghcr.io/blockpane/tenderduty:latest
+```
+-p "28686:28686" - тут може будь який вільний порт 
 
-nano $HOME/tenderduty/config.yml
+та можемо глянути логування:
+```shell
+docker logs -f --tail 20 tenderduty
+```
+### А тепер ми можемо переглянути інформацію у браузері заходимо по адресі:
+
+http://твій-айпі:8888/
+
+перед цим також важлиов відкрити цей порт якщо у вас стоїть файрвол
+```shell
+sudo ufw allow 888
+```
+ось так воно виглядає
