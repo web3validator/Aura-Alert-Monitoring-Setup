@@ -46,3 +46,10 @@ docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
 ```
 <img width="1178" alt="image" src="https://user-images.githubusercontent.com/59205554/187070286-b2232c32-00d0-42f2-bce8-6b979a93fb8a.png">
 
+### У нас створився конфіг який можно подивитись командою
+```shell
+nano $HOME/tenderduty/config.yml
+```
+або переглянути на цьому ж репозиторії -> https://github.com/cybernekit/Aura-Alert-Monitoring-Setup/blob/main/config.yaml
+
+
