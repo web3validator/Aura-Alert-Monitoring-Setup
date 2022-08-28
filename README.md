@@ -1,2 +1,10 @@
-# Aura-Alert-Monitoring-Setup
-Guide how to setup and configure monitoring and alerting systems for Aura test network
+# Aura network Monitoring and alerting setup guide (ukranian language)
+Guide how to setup and configure monitoring and alerting systems for Aura test network 
+# Для моніторингу ми будемо викорстовувати комплексний інструмент моніторингу мереж Tendermint - Tenderduty
+Tenderduty – це комплексний інструмент моніторингу мереж Tendermint. Детальніше можна ознайомитись тут
+
+Даний моніторинг TenderDuty v2 дозволяє здійснювати контроль за нодами та, зокрема, бачити висоту мережі, статус валідатора, аптайм, підписані та пропущені блоки. Також можливе підключення оповіщень у телеграм та дискорд
+
+Установка можлива різними способами, але я використовуватиму установку через Docker, хоча немає принципової різниці
+
+Отже, нам знадобиться окремий сервер (що однозначно дає плюс безпеки) або сервер із уже встановленою нодою (нодами). Також потрібно буде знайти відкриті RPC або відкрити свою на основній (не бажано) або резервній ноді
