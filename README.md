@@ -52,4 +52,22 @@ nano $HOME/tenderduty/config.yml
 ```
 або переглянути на цьому ж репозиторії -> https://github.com/cybernekit/Aura-Alert-Monitoring-Setup/blob/main/config.yaml
 
+### Для налаштування моніторингу нам достатньо змінити у конфігу:
 
+1) ім'я мережі - aura
+2) chain-id - euphoria-1
+3) valoper_address auravaloper1clwszjl2m0zjpu94lyzx8lpmzdv8vgv39xctwk (ви можете його знайти в експлорері натиснувши на свого валідатора за посиланням -> https://testnet.owlstake.com/Aura-Network/staking/)
+4) url https://snapshot-1.euphoria.aura.network:443 - це є RPC проекту також можуть бути
+
+Public Endpoints:
+
+RPC: https://rpc-euphoria.aura.palamar.io
+RPC: https://snapshot-1.euphoria.aura.network
+RPC: https://snapshot-2.euphoria.aura.network
+RPC: https://rpc-t.aura.nodestake.top
+
+відкриваємо конфіг та змінюємо ці параметри
+
+```shell
+nano $HOME/tenderduty/config.yml
+```
