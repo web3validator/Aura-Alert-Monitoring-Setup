@@ -53,3 +53,5 @@ docker restart tenderduty
 
 
 тепер ви будете отримувати сповіщання в телеграм
+
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/59205554/187073800-2b494a44-3cad-473c-b9ec-1f5e3d30e6f7.png">
