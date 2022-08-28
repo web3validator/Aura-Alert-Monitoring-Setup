@@ -71,3 +71,8 @@ RPC: https://rpc-t.aura.nodestake.top
 ```shell
 nano $HOME/tenderduty/config.yml
 ```
+<img width="857" alt="image" src="https://user-images.githubusercontent.com/59205554/187070874-8d5449bf-3ba5-4800-967f-4caeef4dc0dc.png">
+<img width="636" alt="image" src="https://user-images.githubusercontent.com/59205554/187070883-88a7800f-3ac5-4489-bc5f-8a875e98881d.png">
+
+
+nano $HOME/tenderduty/config.yml
