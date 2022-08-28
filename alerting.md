@@ -6,6 +6,7 @@ A short guide on how to set up a notification in telegram (ukranian language)
 #### Для цього нам необхідно створити свого бота через Botfather https://t.me/BotFather
 
 Переходимо за посилання та натискаємо кнопку або вводимо /newbot
+
 <img width="394" alt="image" src="https://user-images.githubusercontent.com/59205554/187072414-3bd83456-3399-4edb-850b-6c091312d939.png">
 
 ####  Далі він спитає назву бота таким чином:
