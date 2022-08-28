@@ -36,7 +36,7 @@ docker --version
 
 ### встановлюєм tenderduty
 
-відкриваємо нову сесію в скріе
+відкриваємо нову сесію в скрін 
 ```shell
 screen -S tenderduty
 ```
@@ -44,3 +44,5 @@ screen -S tenderduty
 mkdir tenderduty && cd tenderduty
 docker run --rm ghcr.io/blockpane/tenderduty:latest -example-config >config.yml
 ```
+<img width="1178" alt="image" src="https://user-images.githubusercontent.com/59205554/187070286-b2232c32-00d0-42f2-bce8-6b979a93fb8a.png">
+
